@@ -1,0 +1,12 @@
+Source: ros-indigo-pal-msgs
+Section: misc
+Priority: extra
+Maintainer: Adolfo Rodriguez Tsouroukdissian <adolfo.rodriguez@pal-robotics.com>
+Build-Depends: debhelper (>= 9.0.0), ros-indigo-catkin
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-indigo-pal-msgs
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-indigo-pal-behaviour-msgs, ros-indigo-pal-control-msgs, ros-indigo-pal-detection-msgs, ros-indigo-pal-device-msgs, ros-indigo-pal-interaction-msgs, ros-indigo-pal-motion-model-msgs, ros-indigo-pal-multirobot-msgs, ros-indigo-pal-navigation-msgs, ros-indigo-pal-tablet-msgs, ros-indigo-pal-vision-msgs, ros-indigo-pal-walking-msgs, ros-indigo-pal-wifi-localization-msgs
+Description: PAL-specific messages and services
