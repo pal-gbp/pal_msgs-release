@@ -1,0 +1,12 @@
+Source: ros-indigo-pal-walking-msgs
+Section: misc
+Priority: extra
+Maintainer: Hilario Tome <hilario.tome@pal-robotics.com>
+Build-Depends: debhelper (>= 9.0.0), ros-indigo-catkin, ros-indigo-geometry-msgs, ros-indigo-humanoid-nav-msgs, ros-indigo-message-generation
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-indigo-pal-walking-msgs
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-indigo-geometry-msgs, ros-indigo-humanoid-nav-msgs, ros-indigo-message-runtime
+Description: Messages and services used as part of the PAL walking controller ROS interface.
